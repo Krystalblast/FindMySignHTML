@@ -1,0 +1,80 @@
+<FrameLayout
+    android:id="@+id/zodiacMenuDis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:ignore="MissingConstraints">
+
+<LinearLayout
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/piscesB"
+        style="@style/signStyle"
+        android:text="@string/pisces" />
+
+    <Button
+        android:id="@+id/ariesB"
+        style="@style/signStyle"
+        android:text="@string/aries" />
+
+    <Button
+        android:id="@+id/taurusB"
+        style="@style/signStyle"
+        android:text="@string/taurus" />
+
+    <Button
+        android:id="@+id/geminiB"
+        style="@style/signStyle"
+        android:text="@string/gemini" />
+
+    <Button
+        android:id="@+id/cancerB"
+        style="@style/signStyle"
+        android:text="@string/cancer" />
+
+    <Button
+        android:id="@+id/leoB"
+        style="@style/signStyle"
+        android:text="@string/leo" />
+
+    <Button
+        android:id="@+id/virgoB"
+        style="@style/signStyle"
+        android:text="@string/virgo" />
+
+    <Button
+        android:id="@+id/libraB"
+        style="@style/signStyle"
+        android:text="@string/libra" />
+
+    <Button
+        android:id="@+id/scropioB"
+        style="@style/signStyle"
+        android:text="@string/scorpio" />
+
+    <Button
+        android:id="@+id/sagittariusB"
+        style="@style/signStyle"
+        android:text="@string/sagittarius" />
+
+    <Button
+        android:id="@+id/capricornB"
+        style="@style/signStyle"
+        android:text="@string/capricorn" />
+
+    <Button
+        android:id="@+id/aquariusB"
+        style="@style/signStyle"
+        android:text="@string/aquarius" />
+
+</LinearLayout>
+
+</ScrollView>
+</FrameLayout>
